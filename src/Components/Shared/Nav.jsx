@@ -21,8 +21,8 @@ const navbar=[
               to={item.path}
               className="flex flex-col items-center justify-center gap-1 text-2xl text-gray-500 "
               >
-                   <div className='text-[#7E4A9E] font-bold'>{item.icon}</div>
-                   <span className='text-[#7E4A9E] font-bold'>{item.label}</span>
+                   <div className='text-[#7E4A9E] md:text-2xl text-[10px] font-bold'>{item.icon}</div>
+                   <span className='text-[#7E4A9E] md:text-2xl  text-[10px] font-bold'>{item.label}</span>
               </NavLink>
             })}
        </div>
