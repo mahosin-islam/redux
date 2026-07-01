@@ -3,8 +3,7 @@ import React from 'react'
 function Card() {
   return (
     <div>
-        <p>lorem3000</p>
-     
+     <h2>card page</h2>
 
     </div>
   )
